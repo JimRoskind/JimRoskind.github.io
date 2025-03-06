@@ -1,0 +1,112 @@
+<HTML><HEAD>
+
+<SCRIPT LANGUAGE="JavaScript"><!--
+
+function DisplayDatedMail(host, user, display)
+{
+  var now = new Date();
+
+  var year = now.getYear();
+  if (year < 2000) year = year + 1900;
+
+  DisplayMail(host, user + "_" + year + "_" + (1+now.getMonth()) + "_" + now.getDate(), display);
+}
+
+function DisplayMail (host, user, display)
+{
+  if ((display.length == 0) || (display.indexOf ('@') + 1))
+    display = user + "@" + host;
+  document.write ("<A HREF=" + "mai" + "lto:" + user + "@" + host + ">" + display + "</A>");
+}
+
+//-->
+</SCRIPT>
+
+<TITLE>Jim Roskind's Home Page</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="MSHTML 6.00.2800.1400" name=GENERATOR></HEAD>
+<BODY>
+<CENTER>
+<H1>Jim Roskind's<BR>Home Page</H1></CENTER>
+
+
+<P>
+<b>Personal Interests:</b> 
+My wife, Melinda, my daughter Brianna, and my son, Dylan. 
+Brianna was born in the year 2000, while Dylan was just born in 2002, and they 
+are both a tremendous <B><I>BLAST</I></B>.  My family is the focus of my life today.
+<P>
+<b>Professional Interests:</b>
+ Self forming overlay networks and their applications; Computer Security (including anti-phishing, anti-skimming, anti-spam, and 
+anti-worm/bot technologies); Home multi-media systems; <A href="http://java.sun.com/">Java</A> (especially 
+security); <A 
+href="http://www.python.org">Python</A>;
+Performance optimization and tools (such as profilers); 
+Compilers; YACC development tools; C++ (and its grammar); Software 
+development tools; Tools and techniques that allow mortals to write good code.
+<P>
+<b>Other Interests:</b>
+<A href="http://www.aynrand.org/">Objectivism</A>, 
+<A href="http://www.sanmateogymnastics.com/">gymnastics,</A> 
+card magic, 
+<A href="http://www.planetgranite.com/">rock climbing</A>, 
+<A href="http://query.nytimes.com/gst/fullpage.html?res=9D05EFD8173CF932A25751C0A96E958260">how NASDAQ works,</A>
+"how stuff works," 
+juggling, 
+unicycling, 
+volleyball. 
+<P>
+<b>Favorite Business Book:</b>
+<a href="http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2FGood-Great-Companies-Leap-Others%2Fdp%2F0066620996&tag=jimrosshompag-20&linkCode=ur2&camp=1789&creative=9325">
+"Good to Great" by Jim Collins
+</a>
+<img src="http://www.assoc-amazon.com/e/ir?t=jimrosshompag-20&amp;l=ur2&amp;o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+I especially liked the concept in getting people that want to work together onto the bus (in your company) before deciding where the bus (company) should go.  This makes it much easier to change the direction and destination as needed!
+<P>
+<b>Favorite Novel:</b> "Atlas Shrugged," by <A href="http://www.aynrand.org/">Ayn 
+Rand</A> 
+<P>
+<b>Favorite Recent(?) Movie:</b> <A href="http://en.wikipedia.org/wiki/The_Shawshank_Redemption">The Shawshank 
+Redemption</A> 
+<P>
+<b>Favorite Scientist:</b>
+<A href="http://www.feynman.com/">Richard 
+Feynman</A> 
+<P>
+<b>Favorite Places:</b>
+<A href="http://www.nps.gov/grca/">Grand Canyon</A>; 
+<A href="http://www.nps.gov/yose/">Yosemite Village</A> 
+<P>
+<b>Interesting Stuff on the Web:</b> 
+an 
+<A href="http://www.investorsolutions.com/v2content/book/index.cfm">
+<B>EXCELLENT</B> online book about 
+investing; </A>some nice 
+<A href="http://flagship5.vanguard.com/VGApp/hnw/web/formlit/FormLit/PlainTalkBro.jsp">investor 
+education</A>
+ from 
+<A href="http://www.vanguard.com/">Vanguard</A>; 
+...and to provide protective education, I'd suggest looking at 
+<A href="http://www.randi.org/">exposes</A> of a variety of scams by James Randi. 
+
+<hr>
+<PRE>US MAIL:        Jim Roskind
+                920 Governors Bay Drive
+                Redwood City, CA 94065
+                650.595.8448
+</PRE>
+
+<hr>
+
+
+<SCRIPT LANGUAGE="javascript">
+DisplayDatedMail ("roskind.com", "jar_homepage", "Send me email");
+</SCRIPT>
+if you have suggestions about this web page. 
+
+
+<PRE>(Last edited 11/16/2007)</PRE>
+
+
+
+</BODY></HTML>
