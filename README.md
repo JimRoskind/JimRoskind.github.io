@@ -1,1 +1,1 @@
-Jim Roskind's person web site.
+Jim Roskind's personal web site.
